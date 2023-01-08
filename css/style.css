@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-body{
-    font-family: merriweather sans-serif;
+html{
+    height: 100%;
+}
+body{  
+    height: 100%;  
+    display: flex;
+    flex-direction: column;
     user-select: none;      
 }
 
@@ -88,6 +92,10 @@ img {
 }
 .project-items a:hover{
     transform: scale(1.3);
+}
+.carousel-image{
+    height: 35vh;
+    object-fit: cover;
 }
 .certificates a{
     transition: .5s;

@@ -14,60 +14,90 @@
 </head>
 <body>  
 
-    <nav class="navbar navbar-expand-lg sticky-top top-0 ">
-        <div class="container ">
-          <a class="navbar-brand p-0 m-0 " href="home.html"><img class="w-25 rounded-pill" src="img/logo-3.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto text-center fs-5">
-              <li class="nav-item">
-                <a class="nav-link" href="home.html"><i class="fa-solid fa-house text-white me-2"></i>Anasayfa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#projects">Projeler</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#certificates">Sertifikalar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cv.html">CV</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Bana Ulaşın</a>
-              </li>              
-            </ul>
+  <nav class="navbar navbar-expand-lg sticky-top top-0 ">
+    <div class="container ">
+        <a class="navbar-brand p-0 m-0 " href="home.html"><img class="w-25 rounded-pill" src="img/logo-3.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center fs-5">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html"><i class="fa-solid fa-house text-white me-2"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html#certificates">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cv.html">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>              
+        </ul>
+      </div>
+    </div>
+</nav>
+
+
+    
+    
+  <div class="container my-4">
+      <h2 class="my-3 text-center">Contact Us</h2>
+      <div class="row g-2">
+        <div class="col-md-6 d-none d-md-block">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6400.877535051685!2d29.426040687190607!3d40.78814331409923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb20799f16e1ef%3A0x591cb67f7486f067!2zNDDCsDQ3JzI0LjciTiAyOcKwMjUnMjAuNyJF!5e0!3m2!1str!2str!4v1673185815034!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-6">
+          <div class="card bg-dark">
+            <div class="card-body">
+              <div class="alert alert-warning">Please fill out the form</div>
+              <form class="row g-3 text-white">
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="text" class="form-label">Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col-12">
+                  <label for="text" class="form-label">Subject</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col-12">
+                  <label for="text" class="form-label">Message</label>
+                  <textarea class="form-control" name="" id="" cols="30" rows="5"></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-outline-primary w-100">Send Message</button>
+                </div>
+              </form>
+            </div>
+            
+            
+
+            </div>
           </div>
         </div>
-    </nav>
+      </div>
+  </div>
 
-    
-    
-    <div class="contact border m-3 p-4 px-3 px-md-5 rounded-5 w-50 mx-auto bg-secondary">
-        <h3 class="text-center pb-5">Bana Ulaşın</h3>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="İsim-Soyisim">
-            <label for="floatingInput">İsim Soyisim</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input style="height: 200px;" type="text" class="form-control" id="floatingInput" placeholder="Mesaj">
-            <label for="floatingInput">Mesaj</label>
-        </div>
-        <div class="contackt-btn w-50 mx-auto">
-            <button class="btn btn-dark w-100" >Gönder</button>
-        </div>
-        
-    </div>
+  <footer class="py-5 bg-dark text-white mt-auto">
+      <div class="container text-center">
+        <span>All Rights Reserved. @2023</span>
+      </div>
+  </footer>
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+      AOS.init();
+  </script>
 </body>
 </html>
