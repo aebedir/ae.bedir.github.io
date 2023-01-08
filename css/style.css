@@ -187,15 +187,9 @@ img {
         margin-left: auto !important;
     } 
     .carousel-image{        
-        height: 45vh;
-        object-fit: cover;
+        height: 45vh;        
     }
     
-@media screen and (max-width:767px) { 
-    .carousel-image{        
-        height: 33vh;
-        object-fit: cover;
-    }
 }
 @media screen and (max-width:400px) {    
     .links i {
@@ -208,14 +202,14 @@ img {
         font-size: 20px;
     }
     .carousel-image{
-        height: 27vh;
-        object-fit: cover;
+        height: 150px;
+        
     }
     
 }
 @media screen and (max-width:350px) { 
     .carousel-image{
-        height: 23vh;
+        height: 130px;
         object-fit: cover;
     }
 }
