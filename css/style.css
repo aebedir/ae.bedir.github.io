@@ -129,7 +129,7 @@ img {
     }
     
 }
-@media screen and (max-width:769px) {
+@media screen and (max-width:768px) {
     .profile-detail{
         text-align: center;
     }    
@@ -187,10 +187,17 @@ img {
         margin-left: auto !important;
     } 
     .carousel-image{        
-        height: 45vh;        
+        height: 43vh;        
     }
     
 }
+
+@media screen and (max-width:500px) { 
+    .carousel-image{        
+        height: 190px;        
+    }
+}
+
 @media screen and (max-width:400px) {    
     .links i {
         font-size: 40px;
