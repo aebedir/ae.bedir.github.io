@@ -83,6 +83,9 @@ img {
 .course i{
     color: goldenrod;
 }
+.education i{
+    color: goldenrod;
+}
 
 .course li{
     margin-bottom: 2px;
@@ -107,6 +110,10 @@ img {
 .project-card {
     display: none;
 }
+.accordion-button::after {
+    margin-left: 3px !important;
+} 
+
 
 @media screen and (max-width:992px) {
     .image h4, .image h5{
@@ -115,6 +122,10 @@ img {
     }
     .links i {
         font-size: 25px;
+    }
+    .carousel-image{
+        height: 30vh;
+        object-fit: cover;
     }
     
 }
@@ -172,11 +183,21 @@ img {
     .index-content h3{
         font-size: 25px;
     }
+    .accordion-button::after {
+        margin-left: auto !important;
+    } 
+    .carousel-image{        
+        height: 45vh;
+        object-fit: cover;
+    }
     
-    
-    
+@media screen and (max-width:767px) { 
+    .carousel-image{        
+        height: 33vh;
+        object-fit: cover;
+    }
 }
-@media screen and (max-width:460px) {    
+@media screen and (max-width:400px) {    
     .links i {
         font-size: 40px;
     }
@@ -185,5 +206,16 @@ img {
     }
     .index-content h3{
         font-size: 20px;
+    }
+    .carousel-image{
+        height: 27vh;
+        object-fit: cover;
+    }
+    
+}
+@media screen and (max-width:350px) { 
+    .carousel-image{
+        height: 23vh;
+        object-fit: cover;
     }
 }
