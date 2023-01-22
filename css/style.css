@@ -1,4 +1,4 @@
-html{
+html .navbar{
     height: 100%;
 }
 body{  
@@ -200,7 +200,7 @@ img {
     content: "";
     display: block;
     margin: 0 auto;
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
     width: 0%;
     transition: .4s;
 }
