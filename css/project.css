@@ -1,0 +1,40 @@
+.second{
+    background-color: black;
+}
+.second ul{
+    padding: 0;
+    margin: 0;
+}
+.second li{
+    display: inline-flex;   
+    padding: 20px 5px; 
+}
+.second a{
+    text-decoration: none;
+    color: white;
+}
+.second a:hover{
+    color: red;
+}
+
+h3{
+    border: 1px solid black;
+    width: 450px;
+    margin: auto;
+    border-radius: 7px 75px 30px 45px;
+    padding: 10px 19px;
+    transition: all 1s ease-in-out; 
+    text-align: center;
+}
+h3:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+}
+
+.react a,.javascript a{
+    color: black;
+    text-decoration: none;
+}
+.react a:hover,.javascript a:hover{
+    color: white;
+}

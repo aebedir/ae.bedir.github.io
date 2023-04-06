@@ -177,7 +177,7 @@ img {
     transition: .5s;
 }
 .project-items a:hover{
-    transform: scale(1.3);
+    /* transform: scale(1.3); */
 }
 .carousel-image{
     height: 35vh;
