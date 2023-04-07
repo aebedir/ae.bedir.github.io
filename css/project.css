@@ -38,3 +38,12 @@ h3:hover{
 .react a:hover,.javascript a:hover, .python a:hover{
     color: white;
 }
+
+@media screen and (max-width:998px) {
+    .pt-3{
+        text-align: center;
+    }
+    .pt-3 li{
+        margin-top: 5px;
+    }
+}
