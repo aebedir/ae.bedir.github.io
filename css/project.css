@@ -31,10 +31,10 @@ h3:hover{
     -webkit-transform: rotateY(360deg);
 }
 
-.react a,.javascript a{
+.react a,.javascript a, .python a{
     color: black;
     text-decoration: none;
 }
-.react a:hover,.javascript a:hover{
+.react a:hover,.javascript a:hover, .python a:hover{
     color: white;
 }
