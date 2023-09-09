@@ -179,19 +179,10 @@ img {
 .project-items a{
     transition: .5s;
 }
-.project-items a:hover{
-    /* transform: scale(1.3); */
-}
+
 .carousel-image{
     height: 35vh;
     object-fit: cover;
-}
-.certificates a{
-    transition: .5s;
-}
-.certificates a:hover {
-    transform: scale(1.5);
-    border: none !important;
 }
 .project-card {
     display: none;
@@ -228,6 +219,7 @@ element.style {
     display: flex;
     gap: 10px;
     margin: auto;
+    justify-content: center;
 }
 .sertifika .col-5{    
     border: solid 1px black;
