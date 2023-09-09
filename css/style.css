@@ -216,8 +216,23 @@ img {
     right: 10px;
 }
 
+element.style {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
 .modal-dialog {
     max-width: 1000px !important ;
+}
+.sertifika{
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+.sertifika .col-5{    
+    border: solid 1px black;
+    padding: 15px;
+    border-radius: 25px;
 }
 @media screen and (max-width:992px) {    
     .image h4, .image h5{

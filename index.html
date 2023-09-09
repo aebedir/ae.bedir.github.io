@@ -21,19 +21,22 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto text-center fs-5">
-          <li class="nav-item">
-            <a class="nav-link nav__link" href="index.html"><i class="fa-solid fa-house text-white me-2"></i>Home</a>
-          </li>          
-          <li class="nav-item">
-            <a class="nav-link nav__link" href="index.html#certificates">Certificates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav__link" href="cv.html">CV</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav__link" href="contact.html">Contact Us</a>
-          </li>   
+        <ul  class="navbar-nav ms-auto text-center fs-5">          
+            <li class="nav-item">
+              <a class="nav-link nav__link naven" href="index.html"><i class="fa-solid fa-house text-white me-2"></i>Home</a>
+              <a class="nav-link nav__link navde d-none" href="index.html"><i class="fa-solid fa-house text-white me-2"></i>Homepage</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link nav__link naven" href="index.html#certificates">Certificates</a>
+              <a class="nav-link nav__link navde d-none" href="index.html#certificates">Zertifikate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__link" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalcv" >CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav__link naven"  href="contact.html">Contact Us</a>
+              <a class="nav-link nav__link navde d-none"  href="contact.html">Kontaktieren Sie uns</a>
+            </li>            
           <li class="nav-item dropdown">
             <a id="en" class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="img/bayrak/en.png" alt="">
@@ -46,10 +49,30 @@
               <li><a onclick="de()" class="dropdown-item text-dark"><img src="img/bayrak/de.png" alt="">DE</a></li>              
             </ul>
           </li>           
-        </ul>
+        </ul>       
+
       </div>
     </div>
   </nav>
+
+  <!-- CV MODAL-->
+
+<div class="modal fade" id="exampleModalcv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog w-50">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 m-auto" id="exampleModalLabelcv">Ahmet Emin Bedir - CV</h1>        
+      </div>
+      <div class="modal-body">
+        <div class="d-flex align-items-center gap-3 justify-content-center">
+          <a  class="btn btn-primary" href="sertifika/CV-Ahmet-Emin-Bedir.pdf" target="_blank" download>Download<img src="" alt=""></a>
+          <a class="btn btn-primary" href="sertifika/CV-Ahmet-Emin-Bedir.pdf" target="_blank" >Show</a> 
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
 
   <!-- Main Kısmı -->
   <main id="mainen">
@@ -159,7 +182,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingFort">
                   <button class="accordion-button collapsed bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFort" aria-expanded="false" aria-controls="flush-collapseFort">
-                    <b class="">Full Stack Web Developer - Dekorobi</b><div class="ms-auto d-none d-md-block">Temmuz 2023  - Halen </div>
+                    <b class="">Full Stack Web Developer - Dekorobi</b><div class="ms-auto d-none d-md-block">Juli 2023  - Continue </div>
                   </button>
                 </h2>
                 <div id="flush-collapseFort" class="accordion-collapse collapse" aria-labelledby="flush-headingFort" data-bs-parent="#accordionFlushExample">
@@ -172,7 +195,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button class="accordion-button collapsed bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <b class="">Full Stack Web Developer - Neos Yazılım Akademi (Staj)</b><div class="ms-auto d-none d-md-block">Nisan 2023  - Ağustos 2023 </div>
+                    <b class="">Full Stack Web Developer - Neos Yazılım Akademi (Staj)</b><div class="ms-auto d-none d-md-block">April 2023  - August 2023 </div>
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -186,7 +209,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
                   <button class="accordion-button collapsed bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    <b class="">Manager - Benna Asansör</b><div class="ms-auto d-none d-md-block">Aralık 2018  - Ocak 2023 </div>
+                    <b class="">Manager - Benna Asansör</b><div class="ms-auto d-none d-md-block">December 2018  - January 2023 </div>
                   </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -197,7 +220,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      <b> Technical Specialist - Genlift Asansör </b>   <span class="ms-auto d-none d-md-block ">Aralık 2016  -  Kasım 2018</span>
+                      <b> Technical Specialist - Genlift Asansör </b>   <span class="ms-auto d-none d-md-block ">December 2016  -  November 2018</span>
                   </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -205,90 +228,44 @@
                 </div>
               </div>                        
             </div>
-          </div>          
+          </div> 
+
           <!-- Projeler -->
           <div class="row">
               <div id="projects" class="projects mt-3 pt-3">
                   <h3 class="text-center border-top border-bottom bg-white">Projects</h3> 
-
-                  <!-- Projeler Mobile Görünüm -->
-                  <div id="carouselExampleInterval" class="carousel mt-3 slide project-card" data-bs-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="3000">
-                          <img src="img/makromekasnak.com-1.jpg"  class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/dekorob.png"  class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/hotel1.jpg" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/portfolyo1.png" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/gedik.jpg" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/EXXEN1.png" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/NETFLİX1.png" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/cinarlift1.jpg" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                      </div>
-                      
-                      
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
-                      <div class="d-md-flex mt-1 w-100 justify-content-center ">
-                          <a href="projects.html"><button class="btn btn-secondary mt-5 w-100 ">Read More</button></a>  
-                        </div> 
-                  </div>
-                    
-                                        
-                    
-                  <!-- Projeler Laptop Görünüm -->
                   <div class="projects-2">
                     <!-- E-Ticaret -->
                     <div>
-                      <h5>E-Ticaret Sitesi</h5>
+                      <h5>E-TCommercial Website</h5>
                       <div class="d-flex align-items-center gap-3 ">
                         <p><a target="_blank" class="btn btn-success" href="https://eminbedir.eu.pythonanywhere.com/">zeynebcebutik</a></p>
                       <!-- Button trigger modal -->
                       <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        Görseller
+                        Images
                       </a></p>
                       <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                         Video
                       </a></p>
                       </div>                      
                       <div>
-                        <h6>Kullanılan Teknolojiler</h6>
+                        <h6>Used Technologies</h6>
                         <p>Python | Django | Sqlite | HTML5 | Css | Bootstrap | JavaScript | Ajax | JQuerry | API</p>
                         <ul>
-                          <li>Admin paneli</li>
-                          <li>Sepete ürün ekleme-silme ve güncelleme</li>
-                          <li>Ürün beğenme</li>
-                          <li>Ödeme ekranı</li>
-                          <li>İyzipay ödeme entegrasyonu</li>
-                          <li>Dinamik ürün ekleme, silme ve güncelleme</li>
-                          <li>Register - Login sayfaları</li>
-                          <li>Hesap bilgileri güncelleme</li>
+                          <li>Administrators panel</li>
+                          <li>Add, delete and update products to cart</li>
+                          <li>Product liking</li>
+                          <li>Payment</li>
+                          <li>İyzipay payment</li>
+                          <li>Dynamic product addition, deletion and update</li>
+                          <li>Register - Login pages</li>
+                          <li>Update account information</li>
                         </ul>
                       </div>                      
 
                       <!-- Modal Resim -->
                       <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
+                        <div class="modal-dialog modal-dialog-centered ">
                           <div class="modal-content">
                             <div class="modal-header">
                               <h1 class="modal-title fs-5" id="exampleModalLabel">eminbedir.eu.pythonanywhere.com</h1>
@@ -363,28 +340,28 @@
 
                     <!-- Netflix -->
                     <div>
-                      <h5>Netflix Klon Projesi</h5>
+                      <h5>Netflix Clon Project</h5>
                       <div class="d-flex align-items-center gap-3 ">
                         <p><a target="_blank" class="btn btn-success" href="https://github.com/aebedir/Django-Netflix-Clone/">Netflix (Github)</a></p>
                         <!-- Button trigger modal -->
                         <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                          Görseller
+                          Images
                         </a></p>
                         <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                           Video
                         </a></p>
                       </div>                      
                       <div>
-                        <h6>Kullanılan Teknolojiler</h6>
+                        <h6>Used Technologies</h6>
                         <p>Python | Django | Sqlite | HTML5 | Css | Bootstrap | JavaScript | JQuerry</p>
                         <ul>
-                          <li>Admin paneli</li>
-                          <li>4 Profil oluşturabilme</li>                                 
-                          <li>Register - Login sayfaları</li>
-                          <li>Profil resimleri ekleme</li>
-                          <li>Hesap bilgileri güncelleme</li>
+                          <li>Administrators panel</li>
+                          <li>Create profile (4)</li>                                 
+                          <li>Register - Login pages</li>
+                          <li>Add profile picture</li>
+                          <li>Update account information</li>
                         </ul>
-                    </div>
+                      </div>
                       <!-- Modal Resim -->
                       <div class="modal fade"  id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered "  >
@@ -441,27 +418,26 @@
 
                     <!-- Pinterest -->
                     <div >
-                      <h5>Pinterest (Staj Projesi)</h5>
+                      <h5>Pinterest (Internship)</h5>
                       <div class="d-flex align-items-center gap-3">
                       <p><a target="_blank" class="btn btn-success" href="https://github.com/aebedir/pinterest/">Pinterest (Github)</a></p>
                       <!-- Button trigger modal -->
                       <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                        Görseller
+                        Images
                       </a></p>
                       <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal6">
                         Video
                       </a></p>
                       </div>
                       <div>
-                        <h6>Kullanılan Teknolojiler</h6>
+                        <h6>Used Technologies</h6>
                         <p>Python | Django | Sqlite | HTML5 | Css | Bootstrap | JavaScript | JQuerry</p>
                         <ul>
-                          <li>Admin paneli</li>
-                          <li>Dinamik pin ekleme</li>                                 
-                          <li>Register - Login sayfaları</li>
-                          <li>Profil resimleri ekleme</li>  
-                          <li>User hesap detay sayfası</li>                                  
-                          <li>Pin ekleyen hesap detay sayfası</li>
+                          <li>Administrators panel</li>
+                          <li>Create Pin</li>                                 
+                          <li>Register - Login pages</li>
+                          <li>Add profile picture</li>  
+                          <li>Accounts detail page</li>                                 
                         </ul>
                       </div>
                       <!-- Modal Resim -->
@@ -531,12 +507,37 @@
                     </div>
                   </div>
               </div>
-          <!-- Sertifikalar -->                  
           </div>
 
+          <!-- Sertifikalar -->                  
+            <div class="row sertifika">
+            <div class="col-5">
+              <img src="sertifika/sertifika1.png" alt="">
+            </div>            
+            <div class="col-5">
+              <img src="sertifika/sertifika2.png" alt="">
+            </div>
+            <div class="col-5">
+              <img src="sertifika/sertifika3.png" alt="">
+            </div>            
+            <div class="col-5">
+              <img src="sertifika/CCNA1.jpg" alt="">
+            </div>
+            <div class="col-5">
+              <img src="sertifika/CCNA2.jpg" alt="">
+            </div>            
+            <div class="col-5">
+              <img src="sertifika/CCNA3.jpg" alt="">
+            </div>
+            <div class="col-5">
+              <img src="sertifika/SQL Server.jpg" alt="">
+            </div>            
+            <div class="col-5">
+              <img src="sertifika/Uygulamalarla SQL.jpg" alt="">
+            </div>
+            </div>
           <!--  Sertifikalar -->
-
-          <div></div>
+          
         </div> <!--Sağ Taraf Kapanış-->  
 
       </div>      
@@ -571,10 +572,10 @@
               <p>18.12.1993</p>
               <h5>Geburtsort</h5>
               <p>Kadıköy</p>
-              <h5>Askerlik</h5>
-              <p>Yapıldı</p>
-              <h5>Medeni Durum</h5>
-              <p>Evli</p>
+              <h5>Wehrdienststatus</h5>
+              <p>Wehrdienst abgeleistet</p>
+              <h5>Familienstand</h5>
+              <p>Verheiratet</p>
               <h5>Fürherschein</h5>
               <p>B</p>  
               <h5>Sprachen</h5>                       
@@ -649,7 +650,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingFort">
                   <button class="accordion-button collapsed bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFort" aria-expanded="false" aria-controls="flush-collapseFort">
-                    <b class="">Full Stack Web Developer - Dekorobi</b><div class="ms-auto d-none d-md-block">Temmuz 2023  - Halen </div>
+                    <b class="">Full Stack Web Developer - Dekorobi</b><div class="ms-auto d-none d-md-block">Juli 2023  - weiter </div>
                   </button>
                 </h2>
                 <div id="flush-collapseFort" class="accordion-collapse collapse" aria-labelledby="flush-headingFort" data-bs-parent="#accordionFlushExample">
@@ -662,7 +663,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button class="accordion-button collapsed bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <b class="">Full Stack Web Developer - Neos Yazılım Akademi (Staj)</b><div class="ms-auto d-none d-md-block">Nisan 2023  - Ağustos 2023 </div>
+                    <b class="">Full Stack Web Developer - Neos Yazılım Akademi (Staj)</b><div class="ms-auto d-none d-md-block">April 2023  - August 2023 </div>
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -676,7 +677,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
                   <button class="accordion-button collapsed bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    <b class="">Manager - Benna Asansör</b><div class="ms-auto d-none d-md-block">Aralık 2018  - Ocak 2023 </div>
+                    <b class="">Manager - Benna Asansör</b><div class="ms-auto d-none d-md-block">Dezember 2018  - januar 2023 </div>
                   </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -687,7 +688,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      <b> Technical Specialist - Genlift Asansör </b>   <span class="ms-auto d-none d-md-block ">Aralık 2016  -  Kasım 2018</span>
+                      <b> Technical Specialist - Genlift Asansör </b>   <span class="ms-auto d-none d-md-block ">Dezember 2016  -  November 2018</span>
                   </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -700,69 +701,24 @@
           <div class="row">
               <div id="projects" class="projects mt-3 pt-3">
                   <h3 class="text-center border-top border-bottom bg-white">Projekte</h3> 
-
-                  <!-- Projeler Mobile Görünüm -->
-                  <div id="carouselExampleInterval" class="carousel mt-3 slide project-card" data-bs-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="3000">
-                          <img src="img/makromekasnak.com-1.jpg"  class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/dekorob.png"  class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/hotel1.jpg" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/portfolyo1.png" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/gedik.jpg" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/EXXEN1.png" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/NETFLİX1.png" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="3000">
-                          <img src="img/cinarlift1.jpg" class="d-block w-100 carousel-image" alt="...">
-                        </div>
-                      </div>
-                      
-                      
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
-                      <div class="d-md-flex mt-1 w-100 justify-content-center ">
-                          <a href="projects.html"><button class="btn btn-secondary mt-5 w-100 ">Read More</button></a>  
-                        </div> 
-                  </div>
-                    
-                                        
                     
                   <!-- Projeler Laptop Görünüm -->
                   <div class="projects-2">
                     <!-- E-Ticaret -->
                     <div>
-                      <h5>E-Ticaret Sitesi</h5>
+                      <h5>E-Kommerzielle Website</h5>
                       <div class="d-flex align-items-center gap-3 ">
                         <p><a target="_blank" class="btn btn-success" href="https://eminbedir.eu.pythonanywhere.com/">zeynebcebutik</a></p>
                       <!-- Button trigger modal -->
-                      <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        Görseller
+                      <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                        Bilder
                       </a></p>
-                      <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal8">
                         Video
                       </a></p>
                       </div>                      
                       <div>
-                        <h6>Kullanılan Teknolojiler</h6>
+                        <h6>Verwendete Technologien</h6>
                         <p>Python | Django | Sqlite | HTML5 | Css | Bootstrap | JavaScript | Ajax | JQuerry | API</p>
                         <ul>
                           <li>Admin paneli</li>
@@ -777,7 +733,7 @@
                       </div>                      
 
                       <!-- Modal Resim -->
-                      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -785,16 +741,16 @@
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              <div id="carouselExampleIndicators0" class="carousel slide">
+                              <div id="carouselExampleIndicators7" class="carousel slide">
                                 <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="7" aria-label="Slide 8"></button>
                                 </div>
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
@@ -819,11 +775,11 @@
                                     <img src="img/zeynebcebutik/zeynep7.png" class="d-block w-100" alt="...">
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
@@ -838,7 +794,7 @@
                       </div>
 
                       <!-- Modal Video -->
-                      <div class="modal fade"  id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade"  id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered "  >
                           <div class="modal-content" >                            
                             <div class="modal-body p-0" > 
@@ -853,19 +809,19 @@
 
                     <!-- Netflix -->
                     <div>
-                      <h5>Netflix Klon Projesi</h5>
+                      <h5>Netflix Klon Projekt</h5>
                       <div class="d-flex align-items-center gap-3 ">
                         <p><a target="_blank" class="btn btn-success" href="https://github.com/aebedir/Django-Netflix-Clone/">Netflix (Github)</a></p>
                         <!-- Button trigger modal -->
-                        <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                          Görseller
+                        <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                          Bilder
                         </a></p>
-                        <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                        <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal10">
                           Video
                         </a></p>
                       </div>                      
                       <div>
-                        <h6>Kullanılan Teknolojiler</h6>
+                        <h6>Verwendete Technologien</h6>
                         <p>Python | Django | Sqlite | HTML5 | Css | Bootstrap | JavaScript | JQuerry</p>
                         <ul>
                           <li>Admin paneli</li>
@@ -874,18 +830,18 @@
                           <li>Profil resimleri ekleme</li>
                           <li>Hesap bilgileri güncelleme</li>
                         </ul>
-                    </div>
+                      </div>
                       <!-- Modal Resim -->
-                      <div class="modal fade"  id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade"  id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered "  >
                           <div class="modal-content" >                            
                             <div class="modal-body p-0" > 
-                              <div id="carouselExampleIndicators1" class="carousel slide">
+                              <div id="carouselExampleIndicators9" class="carousel slide">
                                 <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="3" aria-label="Slide 4"></button>
                                 </div>
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
@@ -901,11 +857,11 @@
                                     <img src="img/netflix/NETFLİX4.png" class="d-block w-100" alt="...">
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
@@ -916,7 +872,7 @@
                       </div>
 
                       <!-- Modal Video -->
-                      <div class="modal fade"  id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade"  id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered "  >
                           <div class="modal-content" >                            
                             <div class="modal-body p-0" > 
@@ -931,19 +887,19 @@
 
                     <!-- Pinterest -->
                     <div >
-                      <h5>Pinterest (Staj Projesi)</h5>
+                      <h5>Pinterest (Projektpraktikum)</h5>
                       <div class="d-flex align-items-center gap-3">
                       <p><a target="_blank" class="btn btn-success" href="https://github.com/aebedir/pinterest/">Pinterest (Github)</a></p>
                       <!-- Button trigger modal -->
-                      <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                        Görseller
+                      <p><a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                        Bilder
                       </a></p>
-                      <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                      <p><a type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal12">
                         Video
                       </a></p>
                       </div>
                       <div>
-                        <h6>Kullanılan Teknolojiler</h6>
+                        <h6>Verwendete Technologien</h6>
                         <p>Python | Django | Sqlite | HTML5 | Css | Bootstrap | JavaScript | JQuerry</p>
                         <ul>
                           <li>Admin paneli</li>
@@ -955,19 +911,19 @@
                         </ul>
                       </div>
                       <!-- Modal Resim -->
-                      <div class="modal fade"  id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade"  id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered "  >
                           <div class="modal-content" >                            
                             <div class="modal-body p-0" > 
-                              <div id="carouselExampleIndicators" class="carousel slide">
+                              <div id="carouselExampleIndicators3" class="carousel slide">
                                 <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="6" aria-label="Slide 7"></button>
                                 </div>
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
@@ -992,11 +948,11 @@
                                     <img src="img/pinterest/pinterest7.png" class="d-block w-100" alt="...">
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
@@ -1007,7 +963,7 @@
                       </div>
 
                       <!-- Modal Video -->
-                      <div class="modal fade"  id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade"  id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered "  >
                           <div class="modal-content" >                            
                             <div class="modal-body p-0" > 
@@ -1019,14 +975,42 @@
                         </div>
                       </div>
                     </div>
+                    
                   </div>
               </div>
-          <!-- Sertifikalar -->                  
           </div>
 
+
+          <!-- Sertifikalar -->                  
+          <div class="row sertifika">
+            <div class="col-5">
+              <img src="sertifika/sertifika1.png" alt="">
+            </div>            
+            <div class="col-5">
+              <img src="sertifika/sertifika2.png" alt="">
+            </div>
+            <div class="col-5">
+              <img src="sertifika/sertifika3.png" alt="">
+            </div>            
+            <div class="col-5">
+              <img src="sertifika/CCNA1.jpg" alt="">
+            </div>
+            <div class="col-5">
+              <img src="sertifika/CCNA2.jpg" alt="">
+            </div>            
+            <div class="col-5">
+              <img src="sertifika/CCNA3.jpg" alt="">
+            </div>
+            <div class="col-5">
+              <img src="sertifika/SQL Server.jpg" alt="">
+            </div>            
+            <div class="col-5">
+              <img src="sertifika/Uygulamalarla SQL.jpg" alt="">
+            </div>
+          </div>
           <!--  Sertifikalar -->
 
-          <div></div>
+          
         </div> <!--Sağ Taraf Kapanış-->  
 
       </div>      
@@ -1057,12 +1041,33 @@
       document.getElementById("de").classList.add("d-none");
       document.getElementById("mainen").classList.remove("d-none");
       document.getElementById("mainde").classList.add("d-none");
+      
+      var navenElements = document.getElementsByClassName("naven");
+      for (var i = 0; i < navenElements.length; i++) {
+        navenElements[i].classList.remove("d-none");
+      }
+      
+      var navdeElements = document.getElementsByClassName("navde");
+      for (var j = 0; j < navdeElements.length; j++) {
+        navdeElements[j].classList.add("d-none");
+      }
     }
+    
     function de(){
       document.getElementById("de").classList.remove("d-none");
       document.getElementById("en").classList.add("d-none");   
       document.getElementById("mainde").classList.remove("d-none");
-      document.getElementById("mainen").classList.add("d-none");              
+      document.getElementById("mainen").classList.add("d-none");    
+    
+      var navenElements = document.getElementsByClassName("naven");
+      for (var i = 0; i < navenElements.length; i++) {
+        navenElements[i].classList.add("d-none");
+      }
+    
+      var navdeElements = document.getElementsByClassName("navde");
+      for (var j = 0; j < navdeElements.length; j++) {
+        navdeElements[j].classList.remove("d-none");
+      }
     }
   </script>
 </body>
