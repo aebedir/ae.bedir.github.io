@@ -256,29 +256,8 @@ element.style {
     }
     .skills {
         border-right:none;       
-    }
+    }     
     
-    .project-items, .projects-2 {
-        display: none;
-    }
-    .certificates a{
-        border: none !important;
-    }
-    .certificates a:hover {
-        transform: scale(1);        
-    }
-    .certificates a {
-        margin-bottom: 7px;
-    }
-    .project-card {
-        display: block;
-    }  
-    .cv{
-        width: 90% !important;
-    }
-    .cv-btn{
-        width: 90% !important;
-    }
     .contact {
         width: 80% !important;
     }
