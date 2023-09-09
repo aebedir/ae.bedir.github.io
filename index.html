@@ -14,7 +14,7 @@
 <body class="bg-light">
 
     
-  <nav class="navbar navbar-expand-lg sticky-top top-0  ">
+  <nav class="navbar navbar-expand-lg ">
     <div class="container ">
         <a class="navbar-brand p-0 m-0 " href="index.html"><img class="w-25 rounded-pill" src="img/logo-3.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,8 +27,8 @@
               <a class="nav-link nav__link navde d-none" href="index.html"><i class="fa-solid fa-house text-white me-2"></i>Homepage</a>
             </li>  
             <li class="nav-item">
-              <a class="nav-link nav__link naven" href="index.html#certificates">Certificates</a>
-              <a class="nav-link nav__link navde d-none" href="index.html#certificates">Zertifikate</a>
+              <a class="nav-link nav__link naven" href="#certificates">Certificates</a>
+              <a class="nav-link nav__link navde d-none" href="#zertifikate">Zertifikate</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav__link" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalcv" >CV</a>
@@ -45,8 +45,8 @@
               <img src="img/bayrak/de.png" alt="">
             </a>
             <ul class="dropdown-menu">
-              <li><a onclick="en()" class="dropdown-item text-dark"><img src="img/bayrak/en.png" alt="">EN</a></li>
-              <li><a onclick="de()" class="dropdown-item text-dark"><img src="img/bayrak/de.png" alt="">DE</a></li>              
+              <li><a onclick="en()" class="dropdown-item text-dark"><img class="me-1" src="img/bayrak/en.png" alt="">EN</a></li>
+              <li><a onclick="de()" class="dropdown-item text-dark"><img class="me-1" src="img/bayrak/de.png" alt="">DE</a></li>              
             </ul>
           </li>           
         </ul>       
@@ -237,7 +237,7 @@
                   <div class="projects-2">
                     <!-- E-Ticaret -->
                     <div>
-                      <h5>E-TCommercial Website</h5>
+                      <h5>E-Commercial Website</h5>
                       <div class="d-flex align-items-center gap-3 ">
                         <p><a target="_blank" class="btn btn-success" href="https://eminbedir.eu.pythonanywhere.com/">zeynebcebutik</a></p>
                       <!-- Button trigger modal -->
@@ -509,32 +509,33 @@
               </div>
           </div>
 
-          <!-- Sertifikalar -->                  
-            <div class="row sertifika">
-            <div class="col-5">
-              <img src="sertifika/sertifika1.png" alt="">
-            </div>            
-            <div class="col-5">
-              <img src="sertifika/sertifika2.png" alt="">
-            </div>
-            <div class="col-5">
-              <img src="sertifika/sertifika3.png" alt="">
-            </div>            
-            <div class="col-5">
-              <img src="sertifika/CCNA1.jpg" alt="">
-            </div>
-            <div class="col-5">
-              <img src="sertifika/CCNA2.jpg" alt="">
-            </div>            
-            <div class="col-5">
-              <img src="sertifika/CCNA3.jpg" alt="">
-            </div>
-            <div class="col-5">
-              <img src="sertifika/SQL Server.jpg" alt="">
-            </div>            
-            <div class="col-5">
-              <img src="sertifika/Uygulamalarla SQL.jpg" alt="">
-            </div>
+          <!-- Sertifikalar -->   
+            <h3 id="certificates" class="text-center border-top border-bottom bg-white mb-3">Certificates</h3>       
+            <div  class="row sertifika">
+              <div class="col-5">
+                <img src="sertifika/sertifika1.png" alt="">
+              </div>            
+              <div class="col-5">
+                <img src="sertifika/sertifika2.png" alt="">
+              </div>
+              <div class="col-5">
+                <img src="sertifika/sertifika3.png" alt="">
+              </div>            
+              <div class="col-5">
+                <img src="sertifika/CCNA1.jpg" alt="">
+              </div>
+              <div class="col-5">
+                <img src="sertifika/CCNA2.jpg" alt="">
+              </div>            
+              <div class="col-5">
+                <img src="sertifika/CCNA3.jpg" alt="">
+              </div>
+              <div class="col-5">
+                <img src="sertifika/SQL Server.jpg" alt="">
+              </div>            
+              <div class="col-5">
+                <img src="sertifika/Uygulamalarla SQL.jpg" alt="">
+              </div>
             </div>
           <!--  Sertifikalar -->
           
@@ -981,8 +982,9 @@
           </div>
 
 
-          <!-- Sertifikalar -->                  
-          <div class="row sertifika">
+          <!-- Sertifikalar -->  
+          <h3 id="zertifikate" class="text-center border-top border-bottom bg-white mb-3">Zertifikate</h3>                
+          <div  class="row sertifika">
             <div class="col-5">
               <img src="sertifika/sertifika1.png" alt="">
             </div>            
