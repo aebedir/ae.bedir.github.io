@@ -207,7 +207,7 @@ img {
     right: 10px;
 }
 
-element.style {
+.modal-dialog {
     width: 500px;
     margin: auto;
     margin-top: 100px;
@@ -226,10 +226,7 @@ element.style {
     padding: 15px;
     border-radius: 25px;
 }
-element.style {
-    margin: auto;
-    margin-top: 100px;
-}
+
 @media screen and (max-width:992px) {    
     .image h4, .image h5{
         font-size: 16px;
@@ -292,6 +289,10 @@ element.style {
 @media screen and (max-width:500px) { 
     .carousel-image{        
         height: 190px;        
+    }
+    .modal-dialog {
+        margin: auto !important;
+        margin-top: 100px !important;
     }
 }
 
