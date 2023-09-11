@@ -138,6 +138,9 @@ img {
         height: 30vh;
         object-fit: cover;
     }
+    #preloader1{
+        display: none;
+    }
     
 }
 @media screen and (max-width:768px) {
@@ -182,10 +185,11 @@ img {
     .index__button{
         display: block;
     }
+   
     
 }
 
-@media screen and (max-width:500px) { 
+@media screen and (max-width:500px) {  
     .carousel-image{        
         height: 190px;        
     }
