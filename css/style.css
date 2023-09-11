@@ -7,90 +7,6 @@ body{
     flex-direction: column;
     user-select: none;      
 }
-.alan{
-    width: 50vmin;
-    height: 50vmin;
-    perspective: 100vmin;
-}
-.kup{
-    width: 50vmin;
-    height: 50vmin;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 1s;
-    animation: anim 25s linear infinite;
-}
-.kup>div{
-    position: absolute;
-    width: 50vmin;
-    height: 50vmin;
-    border: 3px solid black;
-    font-size: 10vmin;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.kup>div::after{
-    content: "";
-    display: block;
-    width: 10vmin;
-    height: 10vmin;
-    background: url(../img/logo-3.png);
-    background-size: cover;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-.on{
-    background-color: rgba(255, 0, 0, 0.6);
-    transform: rotateY(0deg) translateZ(25vmin);
-}
-.sag{
-    background-color: rgba(255, 255, 0, 0.6);
-    transform: rotateY(90deg) translateZ(25vmin);
-}
-
-.arka{
-    background-color: rgba(0, 255, 0, 0.6);
-    transform: rotateY(180deg) translateZ(25vmin);
-}
-.sol{
-    background-color: rgba(0, 255,255, 0.6);
-    transform: rotateY(-90deg) translateZ(25vmin);
-}
-.ust{
-    background-color: rgba(0, 0,255, 0.6);
-    transform: rotateX(90deg) translateZ(25vmin);
-}
-.alt{
-    background-color: rgba(255, 0,255, 0.6);
-    transform: rotateX(-90deg) translateZ(25vmin);
-}
-@keyframes anim{
-    0%{
-        transform: translateZ(-25vmin) rotateY(0deg);
-    }
-    16%{
-        transform: translateZ(-25vmin) rotateY(-180deg);
-    }
-    33%{
-        transform: translateZ(-25vmin) rotateY(-90deg);
-    }
-    50%{
-        transform: translateZ(-25vmin) rotateY(90deg);
-    }
-    66%{
-        transform: translateZ(-25vmin) rotateX(-90deg);
-    }
-    83%{
-        transform: translateZ(-25vmin) rotateX(90deg);
-    }
-    100%{
-        transform: translateZ(-25vmin) rotateY(0deg);
-    }
-}
 .index-content{
     color: white;
     height: 100vh;
@@ -99,24 +15,7 @@ body{
     justify-content: center;
     align-items: center;    
 }
-.yanson a{
-    color: white;
-}
-.yanson{
-    padding: 10px;    
-    animation: yanson 2s 1s infinite;
-}
-@keyframes yanson{
-    0%{
-        color: white;
-    }
-    50%{
-        color: transparent;
-    }
-    100%{
-        color: white;
-    }
-}
+
 
 .index-content h1{
     font-size: 50px;
@@ -141,6 +40,7 @@ img {
 .dropdown img{
     width: 35px;
 }
+
 .links i {
     font-size: 45px;
     transition: .5s;
@@ -206,7 +106,6 @@ img {
     bottom: 10px;
     right: 10px;
 }
-
 .modal-dialog {
     width: 500px;
     margin: auto;

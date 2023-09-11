@@ -5,26 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <link rel="stylesheet" href="css/index.css">    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ahmeteminbedir</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">       
+    <link rel="stylesheet" href="css/bootstrap.min.css">         
 </head>
 <body class="bg-light">
 
-    
+  <div id="preloader" class="yukleniyor">  
+    <div id="loader">   
+    </div>    
+  </div>
+  
+<div class="site" id="top" style="display: none;">
   <nav class="navbar navbar-expand-lg ">
-    <div class="container ">
-        <a class="navbar-brand p-0 m-0 " href="index.html"><img class="w-25 rounded-pill" src="img/logo-3.png" alt=""></a>
+    <div class="container ">      
+        <a class="navbar-brand p-0 m-0 " ><img class="w-25 rounded-pill" src="img/logo-3.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul  class="navbar-nav ms-auto text-center fs-5">          
             <li class="nav-item">
-              <a class="nav-link nav__link naven" href="index.html"><i class="fa-solid fa-house text-white me-2"></i>Home</a>
-              <a class="nav-link nav__link navde d-none" href="index.html"><i class="fa-solid fa-house text-white me-2"></i>Homepage</a>
+              <a class="nav-link nav__link naven" ><i class="fa-solid fa-house text-white me-2"></i>Home</a>
+              <a class="nav-link nav__link navde d-none" ><i class="fa-solid fa-house text-white me-2"></i>Homepage</a>
             </li>  
             <li class="nav-item">
               <a class="nav-link nav__link naven" href="#certificates">Certificates</a>
@@ -55,7 +61,6 @@
   </nav>
 
   <!-- CV MODAL-->
-
 <div class="modal fade" id="exampleModalcv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog w-50">
     <div class="modal-content">
@@ -79,7 +84,7 @@
       <div class="row p-3 ">
 
         <!-- Sol Taraf -->
-        <div class="col-8 mx-auto col-md-3 ">
+        <div class="col-8 mx-auto col-md-3 left ">
           <div class="image p-1 mb-2">
               <img src="img/img-01.jpg" class=" rounded-circle mb-2" alt="">
               <h4 class="text-center">Ahmet Emin Bedir</h4>
@@ -112,8 +117,12 @@
                 <h6>Englisch B1</h6>
                 <h6>Deutsch A2</h6>                
             
-              
-              <img src="img/logo-3.png" class="logo w-75 opacity-25" alt="">                      
+                <div id="preloader1">
+                  <div id="loader1"> 
+                    <img src="img/logo-3.png" class="logo opacity-25" alt="">      
+                  </div>
+                </div>
+                                   
           </div>                   
          
         </div> <!--Sol Taraf Kapanış-->
@@ -264,11 +273,7 @@
                       <!-- Modal Resim -->
                       <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered ">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h1 class="modal-title fs-5" id="exampleModalLabel">eminbedir.eu.pythonanywhere.com</h1>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
+                          <div class="modal-content">                            
                             <div class="modal-body">
                               <div id="carouselExampleIndicators0" class="carousel slide">
                                 <div class="carousel-indicators">
@@ -313,11 +318,7 @@
                                   <span class="visually-hidden">Next</span>
                                 </button>
                               </div>                              
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
+                            </div>                            
                           </div>
                         </div>
                       </div>
@@ -548,7 +549,7 @@
       <div class="row p-3 ">
 
         <!-- Sol Taraf -->
-        <div class="col-8 mx-auto col-md-3 ">
+        <div class="col-8 mx-auto col-md-3 left ">
           <div class="image p-1 mb-2">
               <img src="img/img-01.jpg" class=" rounded-circle mb-2" alt="">
               <h4 class="text-center">Ahmet Emin Bedir</h4>
@@ -580,8 +581,11 @@
               <h5>Sprachen</h5>                    
                 <h6>Englisch Gut B1</h6>
                 <h6>Deutsch Flieβend A2</h6>
-              
-              <img src="img/logo-3.png" class="logo w-75 opacity-25" alt="">                      
+                <div id="preloader1">
+                  <div id="loader1"> 
+                    <img src="img/logo-3.png" class="logo opacity-25" alt="">      
+                  </div>
+                </div>                     
           </div>                   
          
         </div> <!--Sol Taraf Kapanış-->
@@ -732,12 +736,8 @@
 
                       <!-- Modal Resim -->
                       <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h1 class="modal-title fs-5" id="exampleModalLabel">eminbedir.eu.pythonanywhere.com</h1>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">                            
                             <div class="modal-body">
                               <div id="carouselExampleIndicators7" class="carousel slide">
                                 <div class="carousel-indicators">
@@ -782,11 +782,7 @@
                                   <span class="visually-hidden">Next</span>
                                 </button>
                               </div>                              
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
+                            </div>                            
                           </div>
                         </div>
                       </div>
@@ -1027,7 +1023,7 @@
       <span>All Rights Reserved. @aebedir-2022</span>
     </div>
   </footer>
-
+</div>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
   <script src="/js/app.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
@@ -1040,6 +1036,30 @@
       document.getElementById("de").classList.add("d-none");
       document.getElementById("mainen").classList.remove("d-none");
       document.getElementById("mainde").classList.add("d-none");
+
+      // Tüm "site" sınıfına sahip elementleri seçin ve her birini gizleyin
+    var siteElements = document.getElementsByClassName("site");
+    for (var i = 0; i < siteElements.length; i++) {
+        siteElements[i].classList.add("d-none");
+    }
+
+    // Tüm "yukleniyor" sınıfına sahip elementleri seçin ve her birini görünür yapın
+    var yukleniyorElements = document.getElementsByClassName("yukleniyor");
+    for (var i = 0; i < yukleniyorElements.length; i++) {
+        yukleniyorElements[i].classList.add("d-block");
+    }
+
+    $(document).ready(function () {
+        setTimeout(function () {
+            $('.yukleniyor').hide();           
+            for (var i = 0; i < siteElements.length; i++) {
+                siteElements[i].classList.remove("d-none");
+            }
+            for (var i = 0; i < yukleniyorElements.length; i++) {
+        yukleniyorElements[i].classList.remove("d-block");
+    }
+        }, 1000);
+    });
       
       var navenElements = document.getElementsByClassName("naven");
       for (var i = 0; i < navenElements.length; i++) {
@@ -1052,22 +1072,57 @@
       }
     }
     
-    function de(){
-      document.getElementById("de").classList.remove("d-none");
-      document.getElementById("en").classList.add("d-none");   
-      document.getElementById("mainde").classList.remove("d-none");
-      document.getElementById("mainen").classList.add("d-none");    
-    
-      var navenElements = document.getElementsByClassName("naven");
-      for (var i = 0; i < navenElements.length; i++) {
-        navenElements[i].classList.add("d-none");
-      }
-    
-      var navdeElements = document.getElementsByClassName("navde");
-      for (var j = 0; j < navdeElements.length; j++) {
-        navdeElements[j].classList.remove("d-none");
-      }
+    function de() {
+    document.getElementById("de").classList.remove("d-none");
+    document.getElementById("en").classList.add("d-none");
+    document.getElementById("mainde").classList.remove("d-none");
+    document.getElementById("mainen").classList.add("d-none");
+
+    // Tüm "site" sınıfına sahip elementleri seçin ve her birini gizleyin
+    var siteElements = document.getElementsByClassName("site");
+    for (var i = 0; i < siteElements.length; i++) {
+        siteElements[i].classList.add("d-none");
     }
+
+    // Tüm "yukleniyor" sınıfına sahip elementleri seçin ve her birini görünür yapın
+    var yukleniyorElements = document.getElementsByClassName("yukleniyor");
+    for (var i = 0; i < yukleniyorElements.length; i++) {
+        yukleniyorElements[i].classList.add("d-block");
+    }
+
+    $(document).ready(function () {
+        setTimeout(function () {
+            $('.yukleniyor').hide();           
+            for (var i = 0; i < siteElements.length; i++) {
+                siteElements[i].classList.remove("d-none");
+            }
+            for (var i = 0; i < yukleniyorElements.length; i++) {
+        yukleniyorElements[i].classList.remove("d-block");
+    }
+        }, 1000);
+    });
+    
+
+    var navenElements = document.getElementsByClassName("naven");
+    for (var i = 0; i < navenElements.length; i++) {
+        navenElements[i].classList.add("d-none");
+    }
+
+    var navdeElements = document.getElementsByClassName("navde");
+    for (var j = 0; j < navdeElements.length; j++) {
+        navdeElements[j].classList.remove("d-none");
+    }
+}
+
   </script>
+  <script>    
+$(document).ready(function () {  
+  setTimeout(function () {    
+    $('.yukleniyor').hide();
+    $('.site').show();
+  }, 2000); 
+});        
+  </script>
+    
 </body>
 </html> 
