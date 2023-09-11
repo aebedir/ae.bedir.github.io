@@ -40,8 +40,8 @@
               <a class="nav-link nav__link" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalcv" >CV</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav__link naven"  href="contact.html">Contact Us</a>
-              <a class="nav-link nav__link navde d-none"  href="contact.html">Kontaktieren Sie uns</a>
+              <a class="nav-link nav__link naven" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalcontact" >Contact Us</a>
+              <a class="nav-link nav__link navde d-none" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModalcontact">Kontaktieren Sie uns</a>
             </li>            
           <li class="dropdown">
             <a id="en" class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,14 +51,55 @@
               <img src="img/bayrak/de.png" alt="">
             </a>
             <ul class="dropdown-menu">
-              <li><a onclick="en()" class="dropdown-item text-dark"><img class="me-1" src="img/bayrak/en.png" alt="">EN</a></li>
-              <li><a onclick="de()" class="dropdown-item text-dark"><img class="me-1" src="img/bayrak/de.png" alt="">DE</a></li>              
+              <li><a onclick="en()" class="dropdown-item text-dark" href="#top"><img class="me-1" src="img/bayrak/en.png" alt="">EN</a></li>
+              <li><a onclick="de()" class="dropdown-item text-dark" href="#top"><img class="me-1" src="img/bayrak/de.png" alt="">DE</a></li>              
             </ul>
           </li>           
         </ul>      
       </div>
     </div>
   </nav>
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="exampleModalcontact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog w-100">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-body">
+          <div class="contact">
+            <div class="card bg-dark">
+              <div class="card-body">
+                <div class="alert alert-warning">Please fill out the form</div>
+                <form action="https://formspree.io/f/mwkjldkj" method="POST" class="row g-3 text-white">
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="text" class="form-label">Name</label>
+                    <input type="text" name="isim" class="form-control">
+                  </div>
+                  <div class="col-12">
+                    <label for="text" class="form-label">Subject</label>
+                    <input type="text" name="konu" class="form-control">
+                  </div>
+                  <div class="col-12">
+                    <label for="text" class="form-label">Message</label>
+                    <textarea class="form-control" name="mesaj" id="" cols="30" rows="5"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button  type="submit" class="btn btn-outline-primary w-100">Send Message</button>
+                  </div>
+                </form>
+              </div>    
+              </div>
+          </div>
+        </div>      
+      </div>
+    </div>
+  </div>
+  </div>
+  
 
   <!-- CV MODAL-->
 <div class="modal fade" id="exampleModalcv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1058,7 +1099,7 @@
             for (var i = 0; i < yukleniyorElements.length; i++) {
         yukleniyorElements[i].classList.remove("d-block");
     }
-        }, 1000);
+        }, 700);
     });
       
       var navenElements = document.getElementsByClassName("naven");
@@ -1099,7 +1140,7 @@
             for (var i = 0; i < yukleniyorElements.length; i++) {
         yukleniyorElements[i].classList.remove("d-block");
     }
-        }, 1000);
+        }, 700);
     });
     
 
@@ -1123,6 +1164,12 @@ $(document).ready(function () {
   }, 2000); 
 });        
   </script>
+  <script>
     
+$(".navbar-nav li a").click(function(event) {
+    if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+});
+  </script>
 </body>
 </html> 

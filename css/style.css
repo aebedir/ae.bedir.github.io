@@ -159,14 +159,7 @@ img {
     }
     .skills {
         border-right:none;       
-    }     
-    
-    .contact {
-        width: 80% !important;
-    }
-    .contackt-btn{
-        width: 90% !important;
-    }
+    }        
     .logo {
         display: none;
     }
