@@ -38,9 +38,8 @@ img {
     width: 100%;
 }
 .dropdown img{
-    width: 35px;
+    width: 30px;
 }
-
 .links i {
     font-size: 45px;
     transition: .5s;
@@ -140,8 +139,13 @@ img {
     }
     #preloader1{
         display: none;
+    }  
+    .dropdown{
+        width: 150px;
+        margin: auto;        
     }
     
+        
 }
 @media screen and (max-width:768px) {
     .profile-detail{
